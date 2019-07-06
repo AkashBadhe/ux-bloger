@@ -13,7 +13,7 @@
       },
       "options": {
         "authenticationDatabase": "strapi_with_mongo_db",
-        "ssl": true
+        "ssl": false
       }
     }
   }
