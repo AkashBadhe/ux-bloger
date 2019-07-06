@@ -5,11 +5,11 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "ds247377.mlab.com",
-        "port": 47377,
-        "database": "strapi_with_mongo_db",
-        "username": "admin",
-        "password": "Silicus123"
+        "host": "${process.env.DATABASE_HOST}",
+        "port": "${process.env.DATABASE_PORT}",
+        "database": "${process.env.DATABASE_NAME}",
+        "username": "${process.env.DATABASE_USERNAME}",
+        "password": "${process.env.DATABASE_PASSWORD}"
       },
       "options": {
         "authenticationDatabase": "strapi_with_mongo_db",
