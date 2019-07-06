@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "article",
+  "collectionName": "",
   "info": {
-    "name": "article",
+    "name": "carousel",
     "description": ""
   },
   "options": {
@@ -13,20 +13,15 @@
       "default": "",
       "type": "string"
     },
-    "content": {
+    "subtitle": {
       "default": "",
-      "type": "text"
+      "type": "string"
     },
     "image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
-    },
-    "author": {
-      "model": "user",
-      "via": "articles",
-      "plugin": "users-permissions"
     }
   }
 }

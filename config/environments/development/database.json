@@ -9,7 +9,7 @@
         "port": 47377,
         "database": "strapi_with_mongo_db",
         "username": "admin",
-        "password": "Askext@003"
+        "password": "Silicus123"
       },
       "options": {
         "authenticationDatabase": "strapi_with_mongo_db",
